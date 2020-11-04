@@ -15,7 +15,7 @@ module "multi_account_multi_region" {
   this_dns_resolution = true
 
   tags = {
-    Name        = "tf-multi-account-multi-region"
-    Environment = "Test"
+    Name        = "vpc-peering-MGMT-10.10.x.x-to-BCP-10.20.X.X"
+    Environment = "Management"
   }
 }
