@@ -11,6 +11,8 @@ module "multi_account_multi_region" {
   peer_vpc_id = var.peer_vpc_id
 
   auto_accept_peering = true
+  peer_dns_resolution = true
+  this_dns_resolution = true
 
   tags = {
     Name        = "tf-multi-account-multi-region"
